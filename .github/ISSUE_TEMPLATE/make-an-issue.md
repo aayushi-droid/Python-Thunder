@@ -9,8 +9,8 @@ assignees: ''
 
 Before jumping into Pr first comment for assign.All Problem from Edabit. Link is mandatory to add
 
-**Problem statement:**:
-Link: https://edabit.com/challenge/nasKYub6qEAfQcFuy
+**Problem statement:**
+**Problem Link:** 
 
 ---
 Before submitting a PR please Check some details.Check Edabit for problem task
