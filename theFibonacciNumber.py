@@ -16,4 +16,4 @@ def fibonacci(num):
 	else:
 		return fibonacci(num - 1) + fibonacci(num - 2)
     
-print(fibonacci(6))
+print(fibonacci(5))
