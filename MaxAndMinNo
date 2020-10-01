@@ -1,0 +1,4 @@
+#Difference between max and min no in a list
+#Problem Link: https://edabit.com/challenge/XsJLwhAddzbxdQqr4
+def max_min_numbers(list1):
+    print(max(list1)-min(list1))
