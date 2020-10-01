@@ -1,0 +1,2 @@
+def square_areas_difference(r):
+		yield (2*r)**2-(r**2)*2
