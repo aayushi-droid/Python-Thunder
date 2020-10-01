@@ -7,7 +7,7 @@
 
 - [✓] Download Python3
 - [✓] Download IDE (Vscode or Pycharm)
-- [✓] Visit Edabit for Same Probelm task
+- [✓] goto edabit
 
 ## How to Contribute
 
