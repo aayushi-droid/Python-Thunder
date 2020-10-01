@@ -1,0 +1,16 @@
+#WaterJug Problem
+#Problem Link: https://edabit.com/challenge/BMujCYCkTowit85Wq
+def waterjug(water1,water2):
+    i=0
+    list1=[]
+
+    while(i<len(water1)):
+        if water1[i]in water2:
+            list1.append(water1[i])
+
+        i=i+1
+    if len(list1)>0:
+        print(len(list1))
+    else:
+        print("No Solution.")
+waterjug([3, 5, 8], [0, 0, 9])
