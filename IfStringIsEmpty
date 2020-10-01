@@ -1,0 +1,6 @@
+#If the string is empty:
+n1=input()
+if len(n1)==0:
+    print("String is Empty")
+if len(n1)!=0:
+    print("There is something in the string")
