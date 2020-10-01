@@ -1,0 +1,10 @@
+def spherical_cell(r1,r2):
+    a=4/3*22/7*(int(r1)**3-int(r2)**3)
+    if a>0:
+        print(a)
+    if a<0:
+        print(-a)
+    if a==0:
+        print("0")
+#Calling the function
+#spherical_cell(3,800)->Just pass two values instead of r1 and r2
