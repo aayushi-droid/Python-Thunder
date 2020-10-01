@@ -10,3 +10,5 @@ parser = argparse.ArgumentParser(description="date format changer")
 parser.add_argument('--date',help="give the date inthe format '%m/%d/%Y'")
 args = parser.parse_args()
 print(date_format_changer(args))
+
+###use python3 date.py date '11/12/2019'
