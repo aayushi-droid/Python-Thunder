@@ -1,3 +1,6 @@
+#Problem statement: Create a function that receives a non-negative integer and returns the factorial of that number.
+#Problem Link: https://edabit.com/challenge/PNbsQzmDR3CJ9JHkB
+
 def fact(n):
     fct = 1
     for i in range(1,n + 1):
