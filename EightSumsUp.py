@@ -8,4 +8,4 @@ def sum_eight(a):
   return [sorted(i[0]) for i in x if i != []]
   
  if __name__ == '__main__':
-  print(sum_eight(list(map(int, input("List : ").split()))))
+  print('{"pairs":' + str(sum_eight(list(map(int, input("List : ").split())))) + '}')
