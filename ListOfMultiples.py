@@ -9,11 +9,10 @@ list_of_multiples(12, 10) ➞ [12, 24, 36, 48, 60, 72, 84, 96, 108, 120]
 list_of_multiples(17, 6) ➞ [17, 34, 51, 68, 85, 102]
 '''
 
-multiple =[]
 def list_of_multiples(a, b):
-    for i in range(1,b+1):
+    multiple =[a]
+    for i in range(2,b+1):
         multiple.append(a*i)
+    return multiple
         
-
-list_of_multiples(2,6)
-print(multiple)
+print(list_of_multiples(2,6))
