@@ -1,4 +1,5 @@
-
+# Problem-Task : Calculates the sum of n natural numbers recursively.
+# Problem Link : https://edabit.com/challenge/si2H6WC5YX99cn6LQ
 
 def sum_numbers(n):
     if(n == 0):
