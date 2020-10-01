@@ -1,0 +1,3 @@
+def number_squares(n):
+    yield (n*(n+1)*(2*n+1))/6
+print(*number_squares(2))
