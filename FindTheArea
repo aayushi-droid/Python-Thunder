@@ -1,0 +1,3 @@
+def area(r1,r2):
+    print(1/2*int(r1)*int(r2))
+#area(3,2)->Here we assign the function two values r1 and r2
