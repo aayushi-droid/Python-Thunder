@@ -1,0 +1,3 @@
+def mintestosec(min):
+    print(int(min)*60)
+#mintestosec(5)->takes argument and return time in secound
