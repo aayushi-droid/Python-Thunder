@@ -1,0 +1,16 @@
+"""
+Problem statement: Write a function to replace all instances of character c1 with character c2 and vice versa.
+Problem Link: https://edabit.com/challenge/mHRyhyazjCoze5jSL
+
+Write a function to replace all instances of character c1 with character c2 and vice versa.
+
+Examples
+double_swap("aabbccc", "a", "b") ➞ "bbaaccc"
+double_swap("random w#rds writt&n h&r&", "#", "&") ➞ "random w&rds writt#n h#r#"
+double_swap("128 895 556 788 999", "8", "9") ➞ "129 985 556 799 888"
+"""
+
+
+def double_swap(string, r1, r2):
+    return string.replace(r1, '_temp_').replace(r2, r1).replace('_temp_', r2)
+
