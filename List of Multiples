@@ -1,0 +1,9 @@
+def list_of_multiples(r1,r2):
+    i=1
+    list1=[]
+    while(i<r2+1):
+        list1.append(i*r1)
+        i=i+1
+    print(list1)
+#Here we call the function
+#list_of_multiples(12,10)->here we pass two values r1 and r2
