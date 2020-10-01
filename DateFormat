@@ -1,0 +1,7 @@
+#Date Format
+#Problem Link: https://edabit.com/challenge/co4nwXSvnCjGEu8vp
+def format_date(dates):
+    num=dates.split("/")
+    print(num[2],end="")
+    print(num[1],end="")
+    print(num[0])
