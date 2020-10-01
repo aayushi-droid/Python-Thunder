@@ -29,7 +29,15 @@ GUEST_LIST = {
 "Sam": "Argentina"
 }
 
-def greeting():
-    for name, country in GUEST_LIST.items():
-        print(f"Hi! I am {name}, and I'm from {country}")
-greeting()
+try:
+    def greeting(name):
+        country = GUEST_LIST[name]
+
+        print("Hi! I am " + name + ", and I'm from " + country)
+
+
+    name = input("Enter Name: ")
+    greeting(name)
+
+except:
+    print("Hi! I'm a guest.")
