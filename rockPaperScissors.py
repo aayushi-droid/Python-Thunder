@@ -24,3 +24,16 @@ calculate_score([["R", "R"], ["S", "S"]]) ➞ "Tie"
 
 calculate_score([["S", "R"], ["R", "S"], ["R", "R"]]) ➞ "Tie"
 """
+
+
+def first_player_wins(a, b):
+    """
+    If tie                    : Returns  0
+    If first player wins      : Returns  1
+    If second player wins     : Returns -1
+    """
+    if a == b:
+        return 0
+    elif [a, b] == ["R", "S"] or [a, b] == ["S", "P"] or [a, b] == ["P", "R"]:
+        return 1
+    return -1
