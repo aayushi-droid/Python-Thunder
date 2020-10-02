@@ -3,9 +3,9 @@
     Problem Link : https://edabit.com/challenge/si2H6WC5YX99cn6LQ
 '''
 
-def sum_numbers(x):
+def sum_of_numbers(x):
     if x != 0:
-        x += sum_numbers(x-1)
+        x += sum_of_numbers(x-1)
     else:
         return 0
     return x
