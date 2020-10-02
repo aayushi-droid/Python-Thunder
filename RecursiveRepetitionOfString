@@ -1,0 +1,7 @@
+#Recursive repetition of string
+#Problem Link: https://edabit.com/challenge/QKmETue6fMTdcB8Rq
+def repition(num1,num2):
+    i=0
+    while(i<num2):
+        print(num1,end="")
+        i=i+1
