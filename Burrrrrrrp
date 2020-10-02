@@ -1,0 +1,9 @@
+#Burrrrrrrp
+#Problem Link:https://edabit.com/challenge/irb783PpFTDqnumhN
+def long_burp(num):
+    i=0
+    print("Bu",end="")
+    while(i<num):
+        print("r",end="")
+        i=i+1
+    print("p")
