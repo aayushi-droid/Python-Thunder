@@ -1,8 +1,8 @@
-'''
+"""
     Probem Task  : Write a function to read the billable days of an employee
                    and return the bonus he/she has obtained in that quarter.
     Problem Link : https://edabit.com/challenge/ksiA6Q34iXgTcMeZF
-'''
+"""
 
 
 def bonus(days: int):
