@@ -12,10 +12,10 @@ Output: {2, 3}, {1, 4}
 '''
 # A Dynamic Programming solution for subset sum problem 
 # Returns true if there is a subset of 
-# set[] with sun equal to given sum 
+# set[] with sum equal to given sum 
 
 # Returns true if there is a subset of set[] 
-# with sun equal to given sum 
+# with sum equal to given sum 
 def isSubsetSum(set, n, sum): 
 	
 	# The value of subset[i][j] will be 
