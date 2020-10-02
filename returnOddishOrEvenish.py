@@ -14,5 +14,5 @@ def oddishOrEvenish(n):
         print("Oddish")
 
 if __name__ == "__main__":
-    number=int(input("Enter the number\n"));
+    number=int(input("Enter the number to check\n"));
     oddishOrEvenish(number)
