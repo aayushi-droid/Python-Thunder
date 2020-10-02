@@ -1,0 +1,4 @@
+# Area of Triangle
+#Problem Link:https://edabit.com/challenge/irb783PpFTDqnumhN
+def triangle_area(side1,side2):
+    print(int(1/2*side1*side2))
