@@ -3,5 +3,5 @@
     Problem Link : https://edabit.com/challenge/G9QRtAGXb9Cu368Pw
 '''
 
-def pentagonal(num):
-	return int(1+num*(num-1)*5/2)
+def pentagonal(n):
+	return int(1+n*(n-1)*5/2)
