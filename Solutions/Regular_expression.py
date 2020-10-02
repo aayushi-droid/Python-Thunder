@@ -1,4 +1,4 @@
-""" A regular experssion is a sequence of character that defines a search pattern"""
+""" A regular expression is a sequence of character that defines a search pattern"""
 import re
 
 pattern = (
@@ -9,6 +9,6 @@ test_string = "apple"
 result = re.match(pattern, test_string)
 
 if result:
-    print("Serach Successful")
+    print("Search Successful")
 else:
-    print("Seaching Fail")
+    print("Searching Fail")
