@@ -1,0 +1,19 @@
+import pandas as pd
+import nltk
+nltk.download('vader_lexicon')
+
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+sid = SentimentIntensityAnalyzer()
+
+df = pd.read_csv('processed_data.csv')
+df.head()
+
+df['scores'] = df['text'].apply(lambda text: sid.polarity_scores(text))
+
+df['compound'] = df['scores'].apply(lambda d:d['compound'])
+
+df['label'] = df['compound'].apply(lambda score: 'pos' if score>=0 else 'neg') 
+
+df['label'].value_counts()
+
+df.to_csv('labelled_data.csv', index = False)
