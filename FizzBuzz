@@ -1,0 +1,11 @@
+# FizzBuzz Interview Question
+#Problem Link: https://edabit.com/challenge/WXqH9qvvGkmx4dMvp
+def fiz_buzz(num1):
+    if num1%3==0 and num1%15!=0:
+        print("Fizz")
+    if num1%5==0 and num1%15!=0:
+        print("Buzz")
+    if num1%15==0:
+        print("FizzBuzz")
+    else:
+        print(num1)
