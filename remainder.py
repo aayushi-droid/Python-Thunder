@@ -3,6 +3,5 @@
     Problem Link : https://edabit.com/challenge/wgnmQTbfssuhvZHqe
 '''
 
-
 def remainder(x, y):
     return x % y
