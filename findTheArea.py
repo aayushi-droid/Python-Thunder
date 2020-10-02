@@ -5,6 +5,6 @@ Problem Link: https://edabit.com/challenge/3CaszbdZYGN4otQD8
 
 '''
 
-def area(height, width):
-    return 0.5*height*width
+def area(h, w):
+    return 0.5*h*w
 
