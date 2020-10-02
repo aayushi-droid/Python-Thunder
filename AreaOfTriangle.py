@@ -1,5 +1,5 @@
 '''
-    Probem Task : Write a function that takes the base and height of a triangle and returns its area.
+    Problem Task : Write a function that takes the base and height of a triangle and returns its area.
     Problem Link : https://edabit.com/challenge/3CaszbdZYGN4otQD8
 '''
 def tri_area(base, height):
