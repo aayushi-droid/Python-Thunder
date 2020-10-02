@@ -1,4 +1,4 @@
-'''
+"""
 Probem Task : Power Calculator
     Create a function that takes voltage and current and returns the calculated power.
     Example:
@@ -9,10 +9,11 @@ Probem Task : Power Calculator
     circuit_power(480, 20) ➞ 9600
     
     Problem Link: https://edabit.com/challenge/v5gc8FQkDEepkqpfp
-'''
+"""
+
 
 def circuit_power(voltage, current):
-    return voltage*power;
-        
+    return voltage * power
 
-print(circuit_power(230, 10));
+
+print(circuit_power(230, 10))
