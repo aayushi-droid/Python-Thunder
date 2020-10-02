@@ -1,5 +1,5 @@
 """
-    Problem Task: Create a function that returns the string "Burp" with the amount of "r's" determined by the input parameters of the function.
+    Problem statement: Create a function that returns the string 'Burp' with the amount of 'r's' determined by the input parameters of the function.
     Problem Link: https://edabit.com/challenge/irb783PpFTDqnumhN
 """
 
