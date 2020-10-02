@@ -37,3 +37,20 @@ def first_player_wins(a, b):
     elif [a, b] == ["R", "S"] or [a, b] == ["S", "P"] or [a, b] == ["P", "R"]:
         return 1
     return -1
+
+
+def calculate_score(game):
+    abigail = benson = 0
+    for turn in game:
+        decision = first_player_wins(turn[0], turn[1])
+        if decision == 1:
+            abigail += 1
+        elif decision == -1:
+            benson += 1
+
+    if abigail == benson:
+        return "Tie"
+    elif abigail > benson:
+        return "Abigail"
+    return "Benson"
+
