@@ -1,5 +1,5 @@
 """
-Probem Task : This program returns the difference in areas of two squares.
+Problem Task : This program returns the difference in areas of two squares.
 Problem Link: https://edabit.com/challenge/NNhkGocuPMcryW7GP
 """
 
