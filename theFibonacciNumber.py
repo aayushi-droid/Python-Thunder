@@ -12,8 +12,28 @@ Examples:
 
 def fibonacci(num):
 	if num < 2:
-		return 1
+		return num
 	else:
 		return fibonacci(num - 1) + fibonacci(num - 2)
     
 print(fibonacci(5))
+
+
+Fibonacci numbers using Dynamic Programming (Memoization) :
+
+def fibonacci(num,qb):
+	if num <2:
+		return num
+	if qb[num]!=0:
+		return qb[num]
+	
+	fibm1=fibonacci(num-1,qb)
+	fibm2=fibonacci(num-2,qb)
+	fib=fibm1+fibm2
+	qb[num]=fib
+	
+	return fib
+	
+print(fibonacci(5,[]))
+	
+	
