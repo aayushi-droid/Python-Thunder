@@ -1,5 +1,5 @@
 '''
-    Problem Task : This program will add two numbersThe Atbash cipher is an encryption method in which each letter of a word is replaced with its "mirror" letter in the alphabet: A <=> Z; B <=> Y; C <=> X; etc.
+    Problem Task : The Atbash cipher is an encryption method in which each letter of a word is replaced with its "mirror" letter in the alphabet: A <=> Z; B <=> Y; C <=> X; etc.
     Problem Link : https://edabit.com/challenge/MGALfBAXhXqqdFyqo
 '''
 
