@@ -1,3 +1,8 @@
+'''
+    Problem task: Write a function that accepts a positive integer between 0 and 999 inclusive and returns a string representation of that integer written in English.
+    Problem Link: https://edabit.com/challenge/mZqMnS3FsL2MPyFMg
+'''
+
 H100 = "Hundred "
 
 
