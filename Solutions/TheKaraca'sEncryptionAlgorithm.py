@@ -21,7 +21,6 @@ Problem statement: Make a function that encrypts a given input with these steps:
 		All inputs are strings, no uppercases and all output must be strings.
 
 Problem Link : https://edabit.com/challenge/JzBLDzrcGCzDjkk5n
-
 '''
 def encrypt(word):
 	string_a_e_sort ="".join([str(3) if x == 'u' else x for x in [str(1) if x == 'e' else x for x in [str(0) if x == 'a' else x for x in [str(2) if x in ['i', 'o'] else x for x in word[::-1] ]]]])+"aca"
