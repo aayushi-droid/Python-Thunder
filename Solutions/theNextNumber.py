@@ -8,6 +8,8 @@ next_number(0) ➞ 1
 next_number(9) ➞ 10
 
 next_number(-3) ➞ -2
+
+Problem Link :- https://edabit.com/challenge/KjCS7occ9hfu5snpb
 """
 
 def next_number(n):
