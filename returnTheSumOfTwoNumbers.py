@@ -4,7 +4,8 @@
 
 
 def addition(a, b):
-      return a+b
+      sum=a+b
+      return(sum)
 	
 	
 #num1 = input(int("Enter first number - ")
