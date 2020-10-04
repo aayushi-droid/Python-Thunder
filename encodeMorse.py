@@ -1,3 +1,10 @@
+  
+'''
+    Probem Task : This program takes a string and return a non-encoded, encrypted string in morse code
+    Problem Link : https://edabit.com/challenge/5bYXQfpyoithnQisa
+'''
+
+
 char_to_dots = {
   'A': '.-', 'B': '-...', 'C': '-.-.', 'D': '-..', 'E': '.', 'F': '..-.',
   'G': '--.', 'H': '....', 'I': '..', 'J': '.---', 'K': '-.-', 'L': '.-..',
@@ -11,12 +18,16 @@ char_to_dots = {
   '-': '-....-', '+': '.-.-.', '"': '.-..-.', '?': '..--..', '/': '-..-.'
 }
 
+#Take input to be encoded
 rawString = input("Enter String to be encoded: \t")
-rawString = rawString.upper()
-encodedString = ""
+
+rawString = rawString.upper() #Convert the strign to uppercase
+encodedString = ""  #stores the encoded string
+
 for index in range(len(rawString)):
     character = rawString[index]
     encodedString += char_to_dots[character] + " "
+
 
 encodedString = encodedString[:-1]
 print(encodedString)
