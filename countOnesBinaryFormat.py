@@ -11,5 +11,5 @@ def count_ones(n):
 	return count 
   
   
-i = 0000
+i = 5
 print(count_ones(i)) 
