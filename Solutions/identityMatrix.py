@@ -15,10 +15,12 @@ def id_mtrx(n):
     n is positive else return mirror image of identity
     matrix with dimensions n X n.
     '''
+    # Return Error in case the dim passed is a string
+    if type(n) != int:
+        return 'Error'
 
-    dim = n if n >= 0 else -n
     # Construct the identity matrix
-    mtrx = [[0 if i != j else 1 for j in range(dim)] for i in range(dim)]
+    mtrx = [[0 if i != j else 1 for j in range(abs(n))] for i in range(abs(n))]
     # If negative n, get the mirror image of the matrix
     if n < 0:
         mtrx = mtrx[::-1]
