@@ -9,11 +9,17 @@
       # 83 + 34 = 117
       less_than_100(3, 77) ➞ true
 """
+a, b = input("Enter two integer seprated by space: ").split()
 
+num1 = int(a)
+num2 = int(b) 
+num=0
 
 def less_than_100(num1, num2):
-    return num1 + num2 < 100
+    num=num1+num2
+    if (num<100):
+        return True
+    else:
+        return False
 
-
-print(less_than_100(22, 15))
-print(less_than_100(83, 34))
+print(less_than_100(num1, num2))
