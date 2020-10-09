@@ -11,7 +11,7 @@
 
 ## How to Contribute
 
-0. Make sure to star the Repo(⭐)
+0. Make sure to star the Report(⭐)
 1. Create an issue for new problem task/alternative approach/improvement/bug fix/documentation.
 2. Ask for assigning to task and start contributing.
 3. Create Pull request and self Check the Checklist once.
