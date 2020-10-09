@@ -15,16 +15,5 @@ class Employee:
     def __init__(self, firstname:str, lastname:str)->None:
         self.firstname = str(firstname) if firstname else ""
         self.lastname = str(lastname) if lastname else ""
-        self.data = [self.firstname, self.lastname]
-
-    def fullname(self)->str:
-        return ' '.join(self.data)
-	
-    def email(self)->str:
-        return ('.'.join(self.data) + '@company.com').lower()
-		
-    def get_firstname(self)->str:
-        return self.firstname
-
-    def get_lastname(self)->str:
-        return self.lastname
+        self.fullname = ' '.join([self.firstname, self.lastname])
+        self.email = ('.'.join([self.firstname, self.lastname]) + '@company.com').lower()
