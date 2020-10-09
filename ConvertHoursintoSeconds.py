@@ -1,5 +1,5 @@
 '''
-    Probem Task : Create a function that returns True if an integer is evenly divisible by 5, and False otherwise.
+    Probem Task : Create a function that returns the no of seconds when you enter the no of hours as a input.
     Problem Link : https://edabit.com/challenge/nyeNvKWdDFKRAk4Da
 '''
 
