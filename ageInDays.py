@@ -1,3 +1,15 @@
+'''
+
+Problem statement:Create a function that takes the age and return the age in days.
+Problem Link : https://edabit.com/challenge/bL7hSc6Zh4zZJzGmw
+
+Problem statement:**Create a function that takes the age and return the age in days.Use 365 days as the length of a year for this challenge.
+Ignore leap years and days between last birthday and now.
+Expect only positive integer inputs.
+Problem Link:**https://edabit.com/challenge/xbZR26rHMNo32yz35
+
+'''
+
 import datetime
 
 def days_in_month(year, month):
@@ -20,15 +32,18 @@ def is_valid_date(year, month, day):
     else:
         return False
 
-day=int(input("Enter your Birth date : "))
-month=int(input("Enter your Birth month : "))
-year=int(input("Enter your Birth year : "))
+def ageInDays():
+    day=int(input("Enter your Birth date : "))
+    month=int(input("Enter your Birth month : "))
+    year=int(input("Enter your Birth year : "))
 
-if is_valid_date(year,month,day):
-    given = datetime.date(year,month,day)
-    today = datetime.date.today()
-    res = today - given
-    given_date = str(day)+'/'+str(month)+'/'+str(year)
-    print(given_date+" in days is : ",res.days,"days")
-else:
-    print("Invalid Date")
+    if is_valid_date(year,month,day):
+        given = datetime.date(year,month,day)
+        today = datetime.date.today()
+        res = today - given
+        given_date = str(day)+'/'+str(month)+'/'+str(year)
+        print(given_date+" in days is : ",res.days,"days")
+    else:
+        print("Invalid Date")
+
+ageInDays()
