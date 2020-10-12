@@ -1,6 +1,6 @@
 """
 Backtracking is a form of recursion. But it involves choosing only option out of any possiblities.
-        ########################   Arrangemt Of Letter Problem          ##########################
+        ########################   Arrangement Of Letter Problem          ##########################
 ######                               Python                                                        ###### 
 """
 

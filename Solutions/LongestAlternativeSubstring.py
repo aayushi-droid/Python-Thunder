@@ -1,5 +1,5 @@
 """
-    Probem Task : This program will find longest substring with alternating odd/even or even/odd digits
+    Problem Task : This program will find longest substring with alternating odd/even or even/odd digits
     Problem Link : https://edabit.com/challenge/RB6iWFrCd6rXWH3vi
 """
 

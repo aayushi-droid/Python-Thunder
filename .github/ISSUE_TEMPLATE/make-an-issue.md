@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-Before jumping into Pr first comment for assign.All Problem from Edabit. Link is mandatory to add
+Before jumping into Pr first comment for assign. All Problem from Edabit. Link is mandatory to add
 
 **Problem statement:**
 **Problem Link:** 
@@ -15,14 +15,14 @@ Before jumping into Pr first comment for assign.All Problem from Edabit. Link is
 ---
 Before submitting a PR please Check some details.Check Edabit for problem task
 
-- [ ] fileName formet should be in camelcase
+- [ ] fileName format should be in camelcase
     example- returnTheNextNumber.py
 - [ ]  Add label for Problem 
-- [ ]  In file there should be problem statement and link to probelm
+- [ ]  In file there should be problem statement and link to problem
     example - 
 ```python
 '''
-    Probem Task : This program will add two numbers
+    Problem Task : This program will add two numbers
     Problem Link : https://edabit.com/challenge/SFzHtm63XT6EYNHWY
 '''
 */
