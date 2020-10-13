@@ -22,3 +22,4 @@ if __name__ == "__main__":
     assert solutions(200, 420, -800) == 2
     assert solutions(1000, 1000, 0) == 2
     assert solutions(10000, 400, 4) == 1
+    
