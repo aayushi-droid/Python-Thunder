@@ -12,3 +12,13 @@ def solutions(a, b, c):
         return 2    
     if(delta < 0):
         return 0
+
+if __name__ == "__main__":
+    assert solutions(1, 0, -1) == 2
+    assert solutions(1, 0, -1) == 2
+    assert solutions(1, 0, 0) == 1
+    assert solutions(1, 0, 1) == 0
+    assert solutions(200, 420, 800) == 0
+    assert solutions(200, 420, -800) == 2
+    assert solutions(1000, 1000, 0) == 2
+    assert solutions(10000, 400, 4) == 1
