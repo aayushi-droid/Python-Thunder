@@ -6,6 +6,8 @@ Problem Link: https://edabit.com/challenge/PNbsQzmDR3CJ9JHkB
 '''
 
 def fact(n):
+	if n<0:
+		print("you have entered invalid no. please retry")
 	if n == 0:
 		return 1
 	else:
