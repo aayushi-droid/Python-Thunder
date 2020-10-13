@@ -39,3 +39,4 @@ if __name__ == '__main__':
 	print(war_of_numbers([12, 90, 75]))  # Should output :- 27
 
 	print(war_of_numbers([5, 9, 45, 6, 2, 7, 34, 8, 6, 90, 5, 243]))  # Should output :- 168
+	
