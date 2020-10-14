@@ -17,7 +17,7 @@ def is_prime(num):
         # Iterate from 2 to sqrt(n)
         for i in range(2, target+1):
             # If num is divisible by any number between
-            # 2 and n / 2, it is not prime
+            # 2 and sqrt(n), it is not prime
             if (num % i) == 0:
                 return False
         else:
