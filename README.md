@@ -19,7 +19,7 @@
 5. Make sure to follow Clean-Code.
 6. Follow all guidelines in issue & pull Request.
 
-**If you are new to GitHUb,Must Read before Making an issue or PR** -[How to Contribute on Github](dataschool.io/how-to-contribute-on-github/)
+**If you are new to GitHUb,Must Read before Making an issue or PR** -[How to Contribute on Github](https://www.dataschool.io/how-to-contribute-on-github/)
 
 ### Author
 <!-- Restrctions: Don't Change under this line-->
