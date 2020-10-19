@@ -5,5 +5,5 @@
 
 def uncensor(txt, vowels):
 	return txt.replace("*", "{}").format(*vowels)
-  #First we replace "*"s with "{}"s.
-  #Then we apply string formatting.
+  	#First we replace "*"s with "{}"s.
+  	#Then we apply string formatting.
