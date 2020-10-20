@@ -14,6 +14,10 @@
 def less_than_100(num1, num2):
     return num1 + num2 < 100
 
+lambda_less_than_100=lambda a, b:a+b<100
+
 
 print(less_than_100(22, 15))
 print(less_than_100(83, 34))
+print(lambda_less_than_100(22, 15))
+print(lambda_less_than_100(83, 34))
