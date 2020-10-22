@@ -30,7 +30,7 @@ class Calculator:
     def square (self ,num):
         return num**2
     def power(self,num1 ,num2 ):
-        num1**num2 
+        return num1**num2 
     
 
 
