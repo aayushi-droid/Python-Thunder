@@ -8,6 +8,8 @@
 sum=0
 def harshad(n):
     global sum
+    if n==0:
+    	return 'Not Harshad'
     if(n>0):
         rem=n%10
         sum=sum+rem
