@@ -7,13 +7,12 @@
       # 22 + 15 = 37
       less_than_100(83, 34) ➞ False
       # 83 + 34 = 117
-      less_than_100(3, 77) ➞ true
+      less_than_100(3, 77) ➞ True
 """
 
 
 def less_than_100(num1, num2):
-    return num1 + num2 < 100
+    return (num1 + num2 < 100)
 
 
-print(less_than_100(22, 15))
-print(less_than_100(83, 34))
+print(less_than_100(int(input("Enter first number")), int(input("Enter second number")))
