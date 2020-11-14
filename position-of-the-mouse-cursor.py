@@ -1,4 +1,6 @@
-#! python3
+##Problem statement: create a program that checks live mouse cursor location.
+
+
 import pyautogui, sys
 print('Press Ctrl-C to quit.')
 try:
