@@ -6,18 +6,15 @@
 import sys
 
 def long_burp(num):
-    try:
-        num = int(num)
-        if num >= 1:
-            r = "r" * num
-            return r
-        else:
-            print("The number must be equal to or greater than 1")
-            sys.exit()
-    except ValueError:
-        print("Input must be an integer")
-        sys.exit()
 
-num = input("Provide a number: ")
+    if num >= 1:
+        r = "r" * num
+        return r
+    else:
+        print("The number must be equal to or greater than 1")
+        sys.exit()
+ 
+
+num = int(input("Provide a number: "))
 r = long_burp(num)
 print("Bu" + r + "p")
