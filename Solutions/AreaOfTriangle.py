@@ -5,5 +5,7 @@
 def tri_area(base, height):
 	return (base*height)/2
   
-base,height=[int(i) for i in input("Enter base and height: ").split()]
-print(tri_area(base,height))
+assert tri_area(3, 2) == 3.0
+assert tri_area(2, 4) == 4.0
+assert tri_area(7, 4) == 14.0
+assert tri_area(10, 10) == 50.0
