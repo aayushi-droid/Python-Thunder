@@ -5,6 +5,7 @@
 
 
 def get_abs_sum(lst):
+    """ Get absolute sum of list """
     sum = 0
     for x in lst:
         if x < 0:
@@ -12,3 +13,8 @@ def get_abs_sum(lst):
         else:
             sum += x
     return sum
+
+assert get_abs_sum([1, 2, 3, 4, 5]) == 15
+
+def get_abs_sum(lst):
+    return sum(abs(i) for i in lst)
