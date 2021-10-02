@@ -15,6 +15,12 @@ def get_abs_sum(lst):
     return sum
 
 assert get_abs_sum([1, 2, 3, 4, 5]) == 15
+assert get_abs_sum([-1, -2, -3, -4, -5]) == 15
+assert get_abs_sum([1, -2, 3, -4, 5]) == 15
+assert get_abs_sum([-1, 2, -3, 4, -5]) == 15
+assert get_abs_sum([]) == 0
+assert get_abs_sum([-1]) == 1
 
-def get_abs_sum(lst):
+""" def get_abs_sum(lst):
     return sum(abs(i) for i in lst)
+ """

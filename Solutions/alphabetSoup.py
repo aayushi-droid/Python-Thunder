@@ -5,5 +5,5 @@
 
 def alphaSoup(string):
     return ''.join(sorted(string))
-    
-print(alphaSoup('hello'))
+
+assert alphaSoup("hello") == "ehllo"
