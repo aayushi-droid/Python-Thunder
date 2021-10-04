@@ -5,6 +5,6 @@ Problem Link: https://edabit.com/challenge/3CaszbdZYGN4otQD8
 
 '''
 
-def area(base, width):
+def area(base : float, width : float) -> float:
     return (base*height)/2
 
